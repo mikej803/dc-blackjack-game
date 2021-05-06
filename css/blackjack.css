@@ -1,0 +1,200 @@
+
+
+
+/* body {
+    font-family: 'Antonio', sans-serif;
+    box-sizing: border-box;
+    height: 600px;
+    width: 800px;
+    background-image: url("https://bassplayersontheinternet.com/wp-content/uploads/2021/01/blackjack-1600x891_large.jpg");
+}
+  body * {
+    box-sizing: inherit;
+}
+.message-box {
+    width: 900px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto 10px;
+    height: 1em;
+    font-size: 18px;
+    color: indianred;
+}
+.message-box.error {
+    color: rgb(164, 9, 9)
+}
+.table {
+    width: 100%;
+    max-width: calc(100% - 20px);
+    border: 8px solid rgb(3, 7, 2);
+    border-radius: 20px;
+    background: rgb(40, 142, 15);
+    margin: 0 auto;
+    color: white;
+    padding: 30px;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+}
+.player {
+    margin: 20px;
+}
+.player-name {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.points {
+    font-style: italic;
+}
+.hand {
+    height: 120px;
+    background: rgba(10, 43, 2, 0.5);
+    border-radius: 5px;
+}
+.hand img {
+    height: 100%;
+    width: auto;
+    padding: 10px 0 10px 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: 10px;
+    font-size: 18px;
+    border: 0;
+    padding: 10px 16px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 98, 163);
+}
+button:hover {
+    cursor: pointer;
+    background: rgb(35, 133, 199);
+    box-shadow: 0px 0px 10px 5px rgba(35, 133, 199, 0.55);
+}
+button[disabled] {
+    color: rgb(160, 160, 160);
+    background: rgb(71, 71, 71);
+}
+button[disabled]:hover {
+    cursor: not-allowed;
+    background: rgb(71, 71, 71);
+    box-shadow: none;
+}
+button[type="reset"] {
+    color: rgb(255, 184, 184);
+    background: rgb(133, 8, 8);
+}
+button[type="reset"]:hover {
+    background: rgb(150, 7, 7);
+    box-shadow: 0px 0px 10px 5px rgba(150, 7, 7, 0.63);
+} */
+
+
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    background-image: url("/blackjack-exercise/images/bjbackground.png");
+  }
+  
+  body * {
+    box-sizing: inherit;
+  }
+  
+  .message-box {
+    width: 900px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto 10px;
+    height: 1em;
+    font-size: 18px;
+    color: rgb(22, 77, 8);
+  }
+  
+  .message-box.error {
+    color: rgb(122, 0, 0)
+  }
+  
+  .table {
+    width: 900px;
+    max-width: calc(100% - 20px);
+    border: 8px solid rgb(10, 43, 2);
+    border-radius: 20px;
+    background: rgb(147, 84, 22);
+    margin: 0 auto;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .player {
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .player-name {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .points {
+    font-style: italic;
+  }
+  
+  .hand {
+    height: 120px;
+    background: rgb(240, 225, 135);
+    border-radius: 5px;
+  }
+  
+  .hand img {
+    height: 100%;
+    width: auto;
+    padding: 10px 0 10px 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 10px;
+    font-size: 18px;
+    border: 0;
+    padding: 10px 16px;
+    border-radius: 10px;
+    color: rgb(189, 229, 255);
+    background: rgb(0, 98, 163);
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: rgb(35, 133, 199);
+    box-shadow: 0px 0px 10px 5px rgba(35, 133, 199, 0.55);
+  }
+  
+  button[disabled] {
+    color: rgb(160, 160, 160);
+    background: rgb(71, 71, 71);
+  }
+  
+  button[disabled]:hover {
+    cursor: not-allowed;
+    background: rgb(71, 71, 71);
+    box-shadow: none;
+  }
+  
+  button[type="reset"] {
+    color: rgb(255, 184, 184);
+    background: rgb(133, 8, 8);
+  }
+  
+  button[type="reset"]:hover {
+    background: rgb(150, 7, 7);
+    box-shadow: 0px 0px 10px 5px rgba(150, 7, 7, 0.63);
+  }
